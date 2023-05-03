@@ -1,0 +1,41 @@
+* {
+    background-color: #C2C5AA;
+}
+
+.panel {
+    background-color: #A4AC86;
+}
+
+
+h1,
+.font1 {
+    font-family: Cormorant Garamond;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.underline_styling {}
+
+
+.font2 {
+    font-family: Josefin Sans;
+}
+
+
+
+.person {
+    max-width: 22em;
+    max-height: 22em;
+    border-radius: 50%;
+    border: 7px solid #000000;
+    outline: 3px solid #000000;
+    outline-offset: -15px;
+}
+
+.logo {
+    max-width: 8.2em;
+    max-height: 7.1em;
+}
