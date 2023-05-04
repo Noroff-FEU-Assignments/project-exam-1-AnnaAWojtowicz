@@ -1,9 +1,106 @@
+html,
+body {
+    margin: 0;
+}
+
 * {
     background-color: #C2C5AA;
 }
 
+.grid_container {
+    display: grid;
+    grid-template-columns: 14% 72% 14%;
+    grid-template-rows: 10% 20% 5% 8% 17% 1fr;
+    justify-items: stretch;
+    align-items: center;
+}
+
+nav {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.nav_layout {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+
+.logo_container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+}
+
+.logo {
+    max-width: 8.2em;
+    max-height: 7.1em;
+    margin: 1em;
+}
+
+.nav_links {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: end;
+}
+
+.nav_item {
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.carousel {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+
+.title_and_panel {
+    display: inline-block;
+}
+
+.title {
+    justify-self: center;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
 .panel {
+
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: stretch;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
     background-color: #A4AC86;
+    width: 100%;
+
+
+
+}
+
+.panel_pic_container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+}
+
+.panel_text_container {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+
+.panel_pic_container,
+.panel_text_container {
+    background-color: #A4AC86;
+    margin: 3.5em 1em;
 }
 
 
@@ -14,7 +111,7 @@ h1,
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .underline_styling {}
@@ -24,18 +121,22 @@ h1 {
     font-family: Josefin Sans;
 }
 
-
-
-.person {
-    max-width: 22em;
-    max-height: 22em;
-    border-radius: 50%;
-    border: 7px solid #000000;
-    outline: 3px solid #000000;
-    outline-offset: -15px;
+p {
+    background-color: #A4AC86;
 }
 
-.logo {
-    max-width: 8.2em;
-    max-height: 7.1em;
+.person {
+    max-width: 18em;
+    max-height: 18em;
+    border-radius: 50%;
+    border: 6px solid #000000;
+    outline: 3px solid #000000;
+    outline-offset: -12px;
+}
+
+.footer {
+    justify-self: center;
+    font-size: 1.5em;
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
 }
