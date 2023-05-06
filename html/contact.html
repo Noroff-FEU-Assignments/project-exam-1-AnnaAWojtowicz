@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <div class="grid_container">
+        <nav class="font1 nav_layout">
+            <div class="logo_container"><img src="../img/logo.png" alt="A logo of The little scrapbook factory"
+                    class="logo">
+            </div>
+            <div class="nav_links">
+                <span class="nav_item">Blog</span>
+                <span class="nav_item">About me</span>
+                <span class="nav_item">Contact</span>
+            </div>
+        </nav>
+        <section class="carousel">
+            <div>pic</div>
+            <div>pic</div>
+            <div>pic</div>
+            <div>pic</div>
+            <div>pic</div>
+        </section>
+
+
+        <h1 class="title underline_styling">Have a question?</h1>
+
+        <div class="panel_l_margin"></div>
+        <div class="panel__contact">
+
+            <form id="contactForm">
+
+                <div class="input_panels">
+                    <!-- <label>Name</label> -->
+                    <input name="yourName" id="yourName" placeholder="Name" class="input_styling" />
+                    <div class="contactFormError" id="yourNameError">Please, enter your name (min. 5 characters).</div>
+                </div>
+                <div class="input_panels">
+                    <!-- <label>Email Adress</label> -->
+                    <input name="email" id="email" placeholder="Email Adress" class="input_styling" />
+                    <div class="contactFormError" id="emailError">Your email address is not valid. Please try again.
+                    </div>
+                </div>
+                <div class="input_panels">
+                    <!-- <label>Subject</label> -->
+                    <input name="subject" id="subject" placeholder="Subject" class="input_styling" />
+                    <div class="contactFormError" id="subjectError">Please, enter the subject (min. 15 characters).
+                    </div>
+                </div>
+                <div class="input_panels">
+                    <!-- <label>Your Message</label> -->
+                    <textarea name="message" id="message" placeholder="Your Message" class="input_styling"></textarea>
+                    <div class="contactFormError" id="messageError">Please, write you message (min. 25
+                        characters).
+                    </div>
+                </div>
+
+                <div class="button"><button class="button_styling">Send</button></div>
+            </form>
+        </div>
+        <div class="panel_r_margin"></div>
+        <div class="button"><button type="button" value="data" class="button_styling" id="#">Go back to
+                homepage</button></div>
+        <div class="font1 footer">© copyright 2023 by The Little Scrapbook Factory. All rights reserved.</div>
+
+    </div>
+</body>
+
+</html>

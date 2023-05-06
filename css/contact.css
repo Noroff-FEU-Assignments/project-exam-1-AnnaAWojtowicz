@@ -1,0 +1,60 @@
+.panel__contact {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: #A4AC86;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+#contactForm {
+    background-color: #A4AC86;
+    margin-top: 3em;
+    grid-column: 2 / 3;
+
+}
+
+
+.input_panels {
+    background-color: #A4AC86;
+    margin-top: 1em;
+}
+
+.input_styling {
+    font-size: 1.5em;
+    color: #000000;
+    padding: 0.3em 0.5em;
+    border: 3px solid #000000;
+    outline: 1px solid #000000;
+    outline-offset: -6px;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
+.input_styling::placeholder {
+    color: #A4AC86;
+    font-weight: bold;
+
+}
+
+
+.contactFormError {
+    display: none;
+    background-color: #A4AC86;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+    text-align: start;
+
+}
+
+#message {
+    max-height: 1000px;
+    resize: vertical;
+
+}
