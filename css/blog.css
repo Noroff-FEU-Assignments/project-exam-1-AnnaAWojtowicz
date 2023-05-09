@@ -59,6 +59,7 @@ nav {
 .carousel {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
+
 }
 
 
@@ -131,14 +132,27 @@ nav {
     font-size: 2em;
     font-weight: bold;
     place-self: center;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .panel_body_blog_photo {
     grid-row: 2 / 3;
     place-self: center;
     margin-bottom: 1em;
+
 }
+
+.pic_blog_mini_styling {
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    border: 4px solid #000000;
+    outline: 2px solid #000000;
+    outline-offset: -10px;
+
+}
+
+
 
 .panel_body_blog_tags {
     grid-row: 3 / 4;
