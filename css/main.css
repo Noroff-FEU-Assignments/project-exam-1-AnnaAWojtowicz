@@ -209,6 +209,10 @@ p {
     background-color: #A4AC86;
 }
 
+li {
+    font-family: Josefin Sans, sans-serif;
+}
+
 .button {
     grid-column: 1 / 4;
     grid-row: 5 / 6;
