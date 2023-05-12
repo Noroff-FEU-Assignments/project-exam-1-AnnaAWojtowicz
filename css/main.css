@@ -60,7 +60,7 @@ nav {
     margin-bottom: 6em;
 }
 
-.pic_carousel_container {}
+/* .pic_carousel_container {}
 
 .pic_carousel {
     width: 100%;
@@ -71,7 +71,7 @@ nav {
     border-width: 2px;
     border-color: #000000;
 
-}
+} */
 
 /* .title_and_panel {
     display: inline-block;
@@ -221,6 +221,7 @@ li {
     justify-self: center;
     align-self: center;
     background-color: #A4AC86;
+    cursor: pointer;
 
 }
 
