@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="../css/post.css">
 </head>
@@ -18,15 +19,80 @@
                     class="logo">
             </div>
             <div class="nav_links">
-                <span class="nav_item">Blog</span>
-                <span class="nav_item">About me</span>
-                <span class="nav_item">Contact</span>
+                <span class="nav_item"><a href="blog.html">Blog</a></span>
+                <span class="nav_item"><a href="aboutMe.html">About me</a></span>
+                <span class="nav_item"><a href="contact.html">Contact</a></span>
             </div>
         </nav>
-        <section class="carousel">
-            <div class="pic_carousel_container"><img src="../img/post1/drive-download-20230509T100808Z-001/IMG_1172.JPG"
-                    class="pic_carousel"></div>
-        </section>
+        <div class="carousel carousel_container">
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1179.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    1</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1166.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    2</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1217.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    3</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1202.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1228.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1240.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1252.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1263.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1184.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+            <div class="hiding_pic pic_carousel_container fade">
+                <img src="../img/drive-download-20230511T143903Z-001/IMG_1287.JPG" class="pic_carousel">
+                <!-- <button class="button_styling carousel_text">My mum is so cool: Part
+                    4</button> -->
+            </div>
+
+            <div class="prev_next_container">
+                <a class="previous" onclick="plusPics(-1)">
+                    <img src="../img/pointing (2).png" class="pointing"></a>
+                <a class="next" onclick="plusPics(1)"><img src="../img/pointing (3).png" class="pointing"></a>
+            </div>
+        </div>
 
         <div class="panel_l_margin_blog"></div>
         <div class="panel_blog">
@@ -205,6 +271,7 @@
         <div class="font1 footer">© copyright 2023 by The Little Scrapbook Factory. All rights reserved.</div>
 
     </div>
+    <script src="../js/carousel.js"></script>
 </body>
 
 </html>

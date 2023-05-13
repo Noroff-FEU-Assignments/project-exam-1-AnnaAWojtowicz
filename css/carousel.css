@@ -35,17 +35,17 @@ body {
     border-color: #000000;
 }
 
-/* .carousel_text {
+.carousel_text {
     position: absolute;
     max-width: fit-content;
     max-height: fit-content;
-    right: 70%;
+    right: 75%;
     left: 0;
     bottom: 0;
     top: 75%;
     margin: auto;
 
-} */
+}
 
 .fade {
     animation-name: fade;
@@ -62,7 +62,7 @@ body {
     }
 }
 
-.prev_next_contianer {
+.prev_next_container {
     position: absolute;
     top: 73%;
     right: 2%;

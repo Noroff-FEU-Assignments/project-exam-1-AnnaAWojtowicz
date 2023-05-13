@@ -8,6 +8,12 @@ body {
     background-color: #C2C5AA;
 }
 
+a {
+    background-color: transparent;
+}
+
+
+
 .grid_container {
     display: grid;
     grid-template-columns: 0.5fr 4fr 0.5fr;
@@ -52,6 +58,16 @@ nav {
 .nav_item {
     margin: 1em;
     font-size: 1.5em;
+}
+
+a:link,
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_item a:hover {
+    font-weight: bold;
 }
 
 .carousel {
@@ -220,21 +236,28 @@ li {
     margin-bottom: 2em;
     justify-self: center;
     align-self: center;
-    background-color: #A4AC86;
     cursor: pointer;
-
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
 }
 
 .button_styling {
+    display: block;
     font-size: 1.5em;
     padding: 0.30em 1em;
     border: 3px solid #000000;
     outline: 1px solid #000000;
     outline-offset: -6px;
     background-color: #FFFFFF;
+    margin-bottom: 1em;
+
 }
 
-
+#olderPosts {
+    justify-self: center;
+    align-self: center;
+}
 
 .footer {
     justify-self: center;
