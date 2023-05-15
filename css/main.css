@@ -210,7 +210,7 @@ h1 {
     margin: 0;
 }
 
-.underline_styling {}
+
 
 
 .font2,
@@ -240,6 +240,8 @@ li {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 2;
+    background-color: transparent;
+
 }
 
 .button_styling {
@@ -251,7 +253,9 @@ li {
     outline-offset: -6px;
     background-color: #FFFFFF;
     margin-bottom: 1em;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #olderPosts {
