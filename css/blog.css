@@ -73,6 +73,7 @@ nav {
     justify-content: stretch;
     grid-template-columns: 3fr 1fr;
     width: 100%;
+
 }
 
 .panel_l_margin_blog {
@@ -95,6 +96,7 @@ nav {
     display: inline-block;
     align-items: center;
     justify-content: stretch;
+    padding-right: 1em;
 
 }
 
@@ -133,6 +135,7 @@ nav {
     font-weight: bold;
     place-self: center;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .panel_body_blog_photo {
@@ -296,6 +299,7 @@ h3 {
     font-size: 1.5em;
     font-weight: 400;
     background-color: #A4AC86;
+    text-align: center;
 
 }
 
