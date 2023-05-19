@@ -170,10 +170,19 @@ nav {
 .panel_body_blog_intro {
     grid-row: 4 / 5;
     place-self: center;
+    /* margin-bottom: 1em;
+    width: 80%;
+    font-family: Josefin Sans, sans-serif; */
+}
+
+.panel_body_blog_intro p {
     margin-bottom: 1em;
     width: 80%;
     font-family: Josefin Sans, sans-serif;
+    background-color: #C2C5AA;
+    display: inline;
 }
+
 
 .panel_body_blog_button {
     grid-row: 5 / 6;
@@ -270,6 +279,7 @@ h1,
 .button_styling_column,
 .input_styling_column {
     font-family: Cormorant Garamond, serif;
+    cursor: pointer;
 
 }
 
