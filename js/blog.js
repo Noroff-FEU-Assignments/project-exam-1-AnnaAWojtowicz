@@ -61,7 +61,7 @@ async function containerNewestPosts(postsArr) {
             <div class="panel_body_blog_intro">${postsArr[i].excerpt.rendered}</div>
             <div class="panel_body_blog_button">
                 <button type="button" value="data" class="panel_body_blog_button_styling" id="#"><a
-                        href="post.html">Read</a></button>
+                        href="details.html?post=${postsArr[i].id}">Read</a></button>
             </div>
             <div class="panel_body_blog_lines double_lines">
                 <hr class="hr_1">
