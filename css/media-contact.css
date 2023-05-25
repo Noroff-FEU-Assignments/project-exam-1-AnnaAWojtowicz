@@ -1,0 +1,5 @@
+@media (max-width: 640px) {
+    .panel__contact {
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+    }
+}
