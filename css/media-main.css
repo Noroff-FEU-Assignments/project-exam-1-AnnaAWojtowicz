@@ -2,15 +2,12 @@
 
     html,
     body {
-        margin: 0;
         min-width: 360px;
-        width: 100%
     }
 
-    /* {
-    box-sizing: border-box;
-    background-color: #C2C5AA;
-} */
+    body {
+        padding: 0;
+    }
 
     /* a {
         background-color: transparent;
