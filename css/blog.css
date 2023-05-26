@@ -258,6 +258,7 @@ a:visited {
 }
 
 .author_column {
+    width: 100%;
     grid-row: 1 / 2;
     justify-self: center;
     padding: 0.30em 1em;
@@ -269,6 +270,7 @@ a:visited {
 }
 
 .categories_column {
+    width: 100%;
     grid-row: 2 / 3;
     justify-self: center;
     padding: 0.30em 1em;
@@ -281,6 +283,7 @@ a:visited {
 }
 
 .search_column {
+    width: 100%;
     grid-row: 3 / 4;
     justify-self: center;
     padding: 0.30em 1em;
@@ -484,6 +487,7 @@ li {
     grid-row: 2 / 3;
     background-color: #A4AC86;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .category {

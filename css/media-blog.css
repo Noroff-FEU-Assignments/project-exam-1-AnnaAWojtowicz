@@ -69,13 +69,19 @@
 
     }
 
-
+    .photo_post,
+    figure img {
+        width: 100%;
+        height: auto;
+    }
 
 
 
     .column_blog {
+        padding: 1em 4em 0 4em;
         background-color: #A4AC86;
-        align-self: start;
+        text-align: center;
+        font-size: 1.4em;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
@@ -89,13 +95,12 @@
     }
 
     .footer {
-        background-color: #A4AC86;
-
         text-align: center;
         font-size: 1em;
-        padding-top: 4em;
-        padding-bottom: 1em;
+        padding: 4em 1em 1em 1em;
+        background-color: #A4AC86;
         margin: 0;
+
     }
 
 
