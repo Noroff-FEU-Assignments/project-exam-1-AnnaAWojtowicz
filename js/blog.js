@@ -57,7 +57,7 @@ async function containerNewestPosts(postsArr) {
             </div>
             <div class="panel_body_blog_tags">
             ${await runTags(getTagsForPost(postsArr[i].id))} 
-            </div >
+            </div>
             <div class="panel_body_blog_intro">${postsArr[i].excerpt.rendered}</div>
             <div class="panel_body_blog_button">
                 <button type="button" value="data" class="panel_body_blog_button_styling" id="#"><a
