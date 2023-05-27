@@ -3,15 +3,7 @@ const menu = document.querySelector("#menu");
 const closeMenu = document.querySelector("#close");
 
 
-function opensMenu() {
-    if (openMenu.style.display === "block") {
-        openMenu.style.display = "none";
-    } else {
-        openMenu.style.display = "block";
-    }
-}
-
-function closesMenu() {
+function toggleMenu() {
     if (openMenu.style.display === "block") {
         openMenu.style.display = "none";
     } else {
@@ -20,5 +12,5 @@ function closesMenu() {
 }
 
 
-menu.addEventListener("click", opensMenu);
-closeMenu.addEventListener("click", closesMenu);
+menu.addEventListener("click", toggleMenu);
+closeMenu.addEventListener("click", toggleMenu);
