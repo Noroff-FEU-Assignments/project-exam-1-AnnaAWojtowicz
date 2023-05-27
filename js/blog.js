@@ -1,6 +1,3 @@
-// 1. trenger å hente 5 første posts på blogg(det funker på samme måte som å hente detaljer)
-// 2. trenger funksjon som skal hente flere posts når jeg skal trykke på kanppen Older posts
-// 3. trenger funksjon som skal sende med til detaljert side når jeg skal trykke på knappen Read
 
 let blogButton = document.querySelector("#blogButton");
 let containerHTMLNewestPosts = document.querySelector("#postsBody");
@@ -94,8 +91,3 @@ async function run() {
 
 run();
 
-// document.querySelectorAll('*').forEach(el => {
-//     if (el.offsetWidth > document.documentElement.offsetWidth) {
-//         console.log('Found the worst element ever: ', el);
-//     }
-// });

@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="../css/post.css">
     <link rel="stylesheet" href="../css/media-blog.css">
     <link rel="stylesheet" href="../css/hamburger.css">
+
 
 </head>
 
@@ -185,21 +187,6 @@
                     </div>
 
 
-                    <article id="postData"></article>
-                    <h2>New comment</h2>
-                    <form id="myForm">
-                        <input type="text" id="name" name="name" placeholder="Name">
-                        <br><br>
-                        <input type="email" id="email" name="email" placeholder="Email">
-                        <br><br>
-                        <textarea type="textarea" id="message" name="message" placeholder="Message"
-                            style="width: 300px; height: 100px;"></textarea>
-                        <br><br>
-                        <input type="button" value="Submit" onclick="postNewComment()">
-                    </form>
-                    <h2>Comments</h2>
-                    <div id="comments"></div>
-
 
 
 
@@ -280,9 +267,10 @@
 
 
     <script src="../js/carousel.js"></script>
+    <script src="../js/hamburger.js"></script>
     <script src="../js/constants.js"></script>
     <script src="../js/details.js"></script>
-    <script src="../js/hamburger.js"></script>
+
 </body>
 
 </html>

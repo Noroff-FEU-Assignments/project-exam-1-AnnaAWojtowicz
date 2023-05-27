@@ -65,9 +65,74 @@ figure img {
     margin-bottom: 2em;
 }
 
+
 .button_post {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
     background-color: #C2C5AA;
+}
+
+
+
+
+
+.panel_comment {
+    margin-top: 7em;
+    text-align: center;
+    width: 100%;
+
+    /* display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 1fr;
+    justify-items: center; */
+}
+
+h2 {
+    padding-top: 3em;
+    text-align: center;
+}
+
+#commentForm {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 10em;
+    background-color: #C2C5AA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input_panels {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.input_styling {
+    font-size: 1.5em;
+    color: #000000;
+    padding: 0.3em 0.5em;
+    border: 3px solid #000000;
+    outline: 1px solid #000000;
+    outline-offset: -6px;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
+.input_styling::placeholder {
+    color: #A4AC86;
+    font-weight: normal;
+}
+
+#message {
+    min-height: 16px;
+    max-height: 1000px;
+    resize: vertical;
+
+}
+
+.button {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }

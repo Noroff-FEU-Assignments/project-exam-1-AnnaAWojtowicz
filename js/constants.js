@@ -2,6 +2,10 @@ const mainUrl = "https://wp.thelittlescrapbookfactory.com/wp-json";
 const mainUrlShort = "https://wp.thelittlescrapbookfactory.com";
 const posts = `${mainUrl}/wp/v2/posts`;
 const tags = `${mainUrl}/wp/v2/tags`;
+const username = "AnnaWojtowicz";
+const password = "dSipi9blYTFBp8yhDjDnLHXK";
+const comments = `${mainUrl}/wp/v2/comments`;
+
 
 
 function getTagsForPost(postId) {
@@ -17,6 +21,12 @@ function getPosts() {
 }
 
 function getPostDetails(postId) {
-    let postDetail = `${posts}/${postId}`;
+    let postDetail = `${posts}/${postId}?_embed`;
     return postDetail;
+}
+
+function convertDate(rawDate) {
+    const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const date = new Date(rawDate);
+    return date.toLocaleDateString("en-GB", dateOptions);
 }
