@@ -27,12 +27,28 @@ a {
     grid-row: 1 / 2;
 } */
 
+
+.nav_body {
+    background-color: #C2C5AA;
+    border-bottom: 1px solid #000000;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
 .nav_layout {
     display: grid;
     align-items: center;
     grid-template-columns: 2;
     grid-template-rows: 1;
 }
+
+.menu_container {
+    display: none;
+}
+
 
 .logo_container {
     grid-column: 1 / 2;

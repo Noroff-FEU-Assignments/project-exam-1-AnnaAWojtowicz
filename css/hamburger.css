@@ -1,0 +1,49 @@
+@media screen and (max-width: 640px) {
+
+    /* .hamburger {
+        overflow: hidden;
+        background-color: azure;
+        position: relative;
+    } */
+
+
+    .menu_container {
+        display: none;
+        background-color: #A4AC86;
+        min-width: 10em;
+        width: 11em;
+        height: 18em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        border: 3px solid #000000;
+        outline: 1px solid #000000;
+        outline-offset: -6px;
+    }
+
+    .menu_container a,
+    .menu_container .nav_item {
+        background-color: #A4AC86;
+    }
+
+
+    .menu_container :first-child {
+        margin-bottom: 2em;
+    }
+
+
+    .hamburger_menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 12%;
+    }
+
+
+    #nav_links {
+        display: none;
+    }
+
+
+}
