@@ -12,4 +12,8 @@ Crowder, T.J.(26.07.2021). How to get title tag in a string of html? Retrived 19
 
 W3Schools (u.a.). How TO - Add a Class. Retrived 19.05.2023 from: https://www.w3schools.com/howto/howto_js_add_class.asp;
 
+W3Schools (u.a.). How TO - Mobile Navigation Menu 27.05.2023 from: 
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp;
+
 W3Schools (u.a.). How TO - Slideshow. Retrived 11.05.2023 from: https://www.w3schools.com/howto/howto_js_slideshow.asp;
+

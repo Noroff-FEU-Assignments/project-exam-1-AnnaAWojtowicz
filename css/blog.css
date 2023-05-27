@@ -8,6 +8,21 @@ body {
     margin: 0;
 }
 
+.nav_body {
+    background-color: #C2C5AA;
+    border-bottom: 1px solid #000000;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+
+.menu_container {
+    display: none;
+}
+
 a {
     background-color: transparent;
 }

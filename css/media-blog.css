@@ -9,6 +9,17 @@
         margin: 0;
     }
 
+    /* .nav_item {
+        margin: 1em;
+        font-size: 1.5em;
+    } */
+
+    .nav_links {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: end;
+    }
+
     .grid_container_blog {
         display: block;
     }
