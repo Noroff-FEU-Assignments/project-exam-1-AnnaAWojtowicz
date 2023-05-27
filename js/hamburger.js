@@ -1,5 +1,5 @@
 const openMenu = document.querySelector("#menu_container");
-const menu = document.querySelector("#menu");
+const menuList = document.querySelector("#menu");
 const closeMenu = document.querySelector("#close");
 
 
@@ -12,5 +12,5 @@ function toggleMenu() {
 }
 
 
-menu.addEventListener("click", toggleMenu);
+menuList.addEventListener("click", toggleMenu);
 closeMenu.addEventListener("click", toggleMenu);
