@@ -1,12 +1,5 @@
 @media screen and (max-width: 640px) {
 
-    /* .hamburger {
-        overflow: hidden;
-        background-color: azure;
-        position: relative;
-    } */
-
-
     .menu_container {
         display: none;
         background-color: #A4AC86;

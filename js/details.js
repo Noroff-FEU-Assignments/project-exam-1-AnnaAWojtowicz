@@ -15,15 +15,16 @@ function container(responseBody) {
     const containerHTMLSpecific = document.getElementById("specificPost");
     containerHTMLSpecific.innerHTML = `
     <section class="title">
-    <h1 class="underline_styling">${responseBody.title.rendered}
-    </h1>
-    <div class="double_lines">
-        <hr class="hr_1">
-        <hr class="hr_2">
+        <h1 class="underline_styling">${responseBody.title.rendered}
+        </h1>
+        <div class="double_lines">
+            <hr class="hr_1">
+            <hr class="hr_2">
+        </div>
+    </section>
+ <div class="blog_post">
+    <div class="date_post font2">Published: ${convertDate(responseBody.modified)}
     </div>
-</section>
-<div class="blog_post">
-    <div class="date_post font2">Published: ${convertDate(responseBody.modified)}</div>
 
     <div class="panel_body_blog_tags_post">
         <span>USA, Canada and Iceland | </span>
@@ -34,7 +35,7 @@ function container(responseBody) {
     </div>
     
     <div class="photo_and_text_post">${responseBody.content.rendered}
-        <!--<div class="panel_body_blog_photo_post">
+    <!--<div class="panel_body_blog_photo_post">
             <img src="../img/drive-download-20230516T065338Z-001/IMG_1448.JPG"
                 class="photo_post">
         </div>
@@ -70,8 +71,8 @@ function container(responseBody) {
                 luctus fringilla. Praesent volutpat massa nibh, ut mattis velit fermentum eu.
                 Integer mattis ac quam dictum pellentesque.
             </p>
-
         </div>
+        
         <div class="panel_body_blog_photo_post">
             <img src="../img/drive-download-20230516T065338Z-001/IMG_1451.JPG"
                 class="photo_post">
@@ -95,46 +96,41 @@ function container(responseBody) {
             <li>Vintage Photo - Distress Oxide Spray</li>
             <li>Vintage Photo - Distress Ink</li>
             <li>Pocket Frame - Sizzix (#662690)</li>
-
         </div>-->
-
-
 
         <div class="panel_body_blog_lines_post double_lines">
             <hr class="hr_1">
             <hr class="hr_2">
         </div>
     </div>
-
-
-
 </div>
 
 <div class="button_post"><button type="button" value="data" class="button_styling" id="#"><a
-            href="../html/blog.html">Go back to posts</a></button></div>
+                                    href="../html/blog.html">Go back to posts</a></button></div>
 
 
-            <div class="panel_comment" id="postData">
-            <h2>New comment</h2>
-            <form id="commentForm">
-            <div class="input_panels">
-                <input type="text" id="name" name="name" placeholder="Name" class="input_styling">
-                </div>
-                <div class="input_panels">
-                <input type="email" id="email" name="email" placeholder="Email" class="input_styling">
-                </div>
-                <div class="input_panels">
-                <textarea type="textarea" id="message" name="message" placeholder="Message" class="input_styling"></textarea>
-                <div>
-                <div class="input_panels">
-                <input type="button" value="Send" onclick="postNewComment()" class="button button_styling">
-                </div>
-                </div>
-            </form>
-            <h2>Comments</h2>
-            <div id="comments"></div>
-
-        </div>`
+                        <div class="panel_comment" id="postData">
+                            <h2>New comment</h2>
+                            <form id="commentForm">
+                                <div class="input_panels">
+                                    <input type="text" id="name" name="name" placeholder="Name" class="input_styling">
+                                </div>
+                                <div class="input_panels">
+                                    <input type="email" id="email" name="email" placeholder="Email"
+                                        class="input_styling">
+                                </div>
+                                <div class="input_panels">
+                                    <textarea type="textarea" id="message" name="message" placeholder="Message"
+                                        class="input_styling"></textarea>
+                                </div>
+                                <div class="input_panels">
+                                    <input type="button" value="Send" onclick="postNewComment()"
+                                        class="button button_styling">
+                                </div>
+                            </form>
+                            <h2>Comments</h2>
+                            <div id="comments"></div>
+                        </div>`
 }
 
 

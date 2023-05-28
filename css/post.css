@@ -136,3 +136,12 @@ h2 {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+#comments,
+#comments p {
+    width: 70%;
+    margin: 1em auto 1em auto;
+    background-color: #C2C5AA;
+    text-align: left;
+    font-family: Josefin Sans, sans-serif;
+}

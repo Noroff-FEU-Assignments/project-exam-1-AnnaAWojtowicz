@@ -5,7 +5,7 @@ const tags = `${mainUrl}/wp/v2/tags`;
 const username = "AnnaWojtowicz";
 const password = "dSipi9blYTFBp8yhDjDnLHXK";
 const comments = `${mainUrl}/wp/v2/comments`;
-
+const contactPageUrl = `${mainUrl}/wp-json/wp/v2/pages/208?_embed`;
 
 
 function getTagsForPost(postId) {

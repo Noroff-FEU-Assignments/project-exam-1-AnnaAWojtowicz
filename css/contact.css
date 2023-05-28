@@ -15,7 +15,6 @@
     background-color: #A4AC86;
     margin-top: 3em;
     grid-column: 2 / 3;
-
 }
 
 
@@ -33,13 +32,11 @@
     outline-offset: -6px;
     background-color: #FFFFFF;
     width: 100%;
-
 }
 
 .input_styling::placeholder {
     color: #A4AC86;
     font-weight: bold;
-
 }
 
 
@@ -49,7 +46,6 @@
     margin-top: 0.4em;
     margin-left: 0.5em;
     text-align: start;
-
 }
 
 #message {
