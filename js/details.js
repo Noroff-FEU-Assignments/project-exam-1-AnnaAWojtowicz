@@ -113,15 +113,15 @@ function container(responseBody) {
                             <h2>New comment</h2>
                             <form id="commentForm">
                                 <div class="input_panels">
-                                    <input type="text" id="name" name="name" placeholder="Name" class="input_styling">
+                                    <input type="text" id="name" name="name" placeholder="Name" class="input_styling" aria-label="enter your name here">
                                 </div>
                                 <div class="input_panels">
                                     <input type="email" id="email" name="email" placeholder="Email"
-                                        class="input_styling">
+                                        class="input_styling" aria-label="enter your email here">
                                 </div>
                                 <div class="input_panels">
                                     <textarea type="textarea" id="message" name="message" placeholder="Message"
-                                        class="input_styling"></textarea>
+                                        class="input_styling" aria-label="enter your message here"></textarea>
                                 </div>
                                 <div class="input_panels">
                                     <input type="button" value="Send" onclick="postNewComment()"
