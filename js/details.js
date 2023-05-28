@@ -105,8 +105,8 @@ function container(responseBody) {
     </div>
 </div>
 
-<div class="button_post"><button type="button" value="data" class="button_styling" id="#"><a
-                                    href="../html/blog.html">Go back to posts</a></button></div>
+<div class="button_post"><button type="button" value="data" class="button_styling" id="#" aria-label="Go back to posts"><a
+                                    href="../html/blog.html" aria-label="Go back to posts">Go back to posts</a></button></div>
 
 
                         <div class="panel_comment" id="postData">
@@ -125,7 +125,7 @@ function container(responseBody) {
                                 </div>
                                 <div class="input_panels">
                                     <input type="button" value="Send" onclick="postNewComment()"
-                                        class="button button_styling">
+                                        class="button button_styling" aria-label="send">
                                 </div>
                             </form>
                             <h2>Comments</h2>
