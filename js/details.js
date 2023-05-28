@@ -36,7 +36,7 @@ function container(responseBody) {
     
     <div class="photo_and_text_post">${responseBody.content.rendered}
     <!--<div class="panel_body_blog_photo_post">
-            <img src="../img/drive-download-20230516T065338Z-001/IMG_1448.JPG"
+            <img src="../img/carousel/IMG_1448.JPG"
                 class="photo_post">
         </div>
 
@@ -54,7 +54,7 @@ function container(responseBody) {
             </p>
         </div>
         <div class="panel_body_blog_photo_post">
-            <img src="../img/drive-download-20230516T065338Z-001/IMG_1450.JPG"
+            <img src="../img/carousel/IMG_1450.JPG"
                 class="photo_post">
         </div>
 
@@ -74,7 +74,7 @@ function container(responseBody) {
         </div>
         
         <div class="panel_body_blog_photo_post">
-            <img src="../img/drive-download-20230516T065338Z-001/IMG_1451.JPG"
+            <img src="../img/carousel/IMG_1451.JPG"
                 class="photo_post">
         </div>
 
