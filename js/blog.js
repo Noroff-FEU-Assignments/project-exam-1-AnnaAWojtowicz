@@ -4,6 +4,7 @@ let containerHTMLNewestPosts = document.querySelector("#postsBody");
 let currentPage = 1;
 let postsTotal = 0;
 let postProcessed = 0;
+let categoryId = 0;
 
 function olderPosts() {
     currentPage = currentPage + 1;
@@ -17,6 +18,13 @@ async function getNewestPosts(pageNumber) {
     return responseBody;
 }
 
+async function getNewestPostsByCategory(pageNumber, categoryId) {
+    const response = await fetch(newestPostsByCategory(pageNumber, categoryId));
+    categoryId = 0;
+    postsTotal = parseInt(response.headers.get("X-WP-Total"));
+    const responseBody = await response.json();
+    return responseBody;
+}
 
 async function getTags(url) {
     const response = await fetch(url);
@@ -77,9 +85,23 @@ function getImage(htmlString) {
     return imgTagContent;
 }
 
+function filterByCategory(catId) {
+    categoryId = catId;
+    currentPage = 1;
+    postProcessed = 0;
+    postsTotal = 0;
+    containerHTMLNewestPosts.innerHTML = "";
+    run();
+}
+
 async function run() {
-    if (postProcessed === 0 | postProcessed < postsTotal) {
-        const resultNewPosts = await getNewestPosts(currentPage);
+    if (postProcessed === 0 || postProcessed < postsTotal) {
+        let resultNewPosts = null;
+        if (categoryId === 0) {
+            resultNewPosts = await getNewestPosts(currentPage);
+        } else {
+            resultNewPosts = await getNewestPostsByCategory(currentPage, categoryId);
+        }
         containerNewestPosts(resultNewPosts);
         runTags("https://wp.thelittlescrapbookfactory.com/wp-json/wp/v2/tags?post=146");
     } else {

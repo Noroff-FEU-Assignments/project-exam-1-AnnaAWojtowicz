@@ -16,6 +16,10 @@ function newestPosts(pageNumber) {
     return `${posts}?per_page=5&orderby=date&order=desc&page=${pageNumber}`;
 }
 
+function newestPostsByCategory(pageNumber, categoryId) {
+    return `${posts}?per_page=5&orderby=date&order=desc&page=${pageNumber}&categories=${categoryId}`;
+}
+
 function getPosts() {
     return mainUrl;
 }
