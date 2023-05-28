@@ -108,7 +108,6 @@ async function run() {
         const disableButton = document.getElementById("olderPosts");
         disableButton.disabled = true;
         disableButton.innerHTML = "";
-        // disableButton.appendChild(document.createTextNode("There are no more posts to show"));
         disableButton.innerHTML = "There are no more posts to show";
     }
 }
