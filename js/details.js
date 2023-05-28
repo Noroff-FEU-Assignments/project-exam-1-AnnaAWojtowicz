@@ -201,6 +201,7 @@ async function run() {
     console.log(details);
     container(details);
     showCommentsInHtml(details);
+    document.title = details.title.rendered;
 }
 
 run();
