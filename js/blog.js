@@ -103,10 +103,13 @@ async function run() {
             resultNewPosts = await getNewestPostsByCategory(currentPage, categoryId);
         }
         containerNewestPosts(resultNewPosts);
-        runTags("https://wp.thelittlescrapbookfactory.com/wp-json/wp/v2/tags?post=146");
     } else {
-        alert("no more posts");
-        //TODO: Endre på klasse til knappen slik at den blir "disabled"
+        // alert("no more posts");
+        const disableButton = document.getElementById("olderPosts");
+        disableButton.disabled = true;
+        disableButton.innerHTML = "";
+        // disableButton.appendChild(document.createTextNode("There are no more posts to show"));
+        disableButton.innerHTML = "There are no more posts to show";
     }
 }
 
