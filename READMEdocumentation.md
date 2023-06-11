@@ -1,7 +1,7 @@
 # The Little Scrapbook Factory
 *The Little Scrapbook Factory* is a project that can be used as a blog site. 
 
-![screenshot of the landing site](https://raw.githubusercontent.com/AnnaAWojtowicz/pics/main/TheLittleScrapbokkFactoryScreenshot.png "screenshot of the landing site")
+![screenshot of the landing site](https://wp.thelittlescrapbookfactory.com/wp-content/uploads/2023/06/TheLittleScrapbookFactory_Screenshot.png "screenshot of the landing site")
 
 ## Project Description
 *The Little Scrapbook Factory* was created to be used as a blog site. Its designed as most of the scrapbooking blogs that focus on a vintage look with a bit of a modern touch to it.
